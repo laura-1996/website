@@ -1,0 +1,171 @@
+body{
+  color: #40514E;
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+
+h1{
+  color: #0fbfc7;
+  font-size: 5.625rem ;
+  margin: 50px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+}
+
+h2{
+  color: #0fbfc7;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  font-weight: normal;
+  padding-bottom: 10px;
+}
+
+h3{
+  color:#07a9b1;
+  font-family: 'Montserrat', sans-serif;
+}
+
+p{
+  line-height: 2;
+}
+
+hr{
+  border: dotted #EAF6F6 6px;
+  border-bottom: none;
+  width: 4%;
+  margin: 100px auto;
+}
+
+a{
+  color: #088d94;
+  font-family: 'Montserrat', sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+
+a:hover {
+  color:#EAF6F6;
+}
+
+
+.top-container {
+  background-color: #E4F9F5;
+  position: relative;
+  padding-top: 100px;
+}
+
+.middle-container {
+margin: 100px 0;
+}
+
+footer {
+  background-color: #66BFBF;
+  padding:75px;
+  background-color: #5acbd0;
+}
+/* ------------Navigation Bar--------------- */
+
+
+.main-nav {
+  margin-left: 60%;
+  list-style: none;
+  margin-top: 0px;
+  position: absolute;
+}
+
+.main-nav li {
+  display: inline-block;
+}
+
+.main-nav li a:link,
+.main-nav li a:visited {
+  padding: 8px 0;
+  color: #07a9b1;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 90%;
+  border-bottom: 2px solid transparent;
+  transition: border-bottom 0.2s;
+}
+
+.main-nav li a:hover,
+.main-nav li a:active {
+  border-bottom: 2px solid #07a9b1;
+}
+
+.profile{
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: center;
+}
+
+.goal-why{
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+}
+
+.contact-message{
+  width: 40%;
+  margin: 40px auto 60px;
+}
+
+.copywright{
+  color: #EAF6F6;
+  font-size: 0.75rem;
+  padding: 20px 0;
+}
+
+.beach{
+  width: 300px;
+}
+
+.top-cloud{
+  width: 150px;
+  position: absolute;
+  right: 300px;
+  top: 10px;
+}
+
+.bottom-cloud{
+  width: 150px;
+  position: absolute;
+  left: 250px;
+  bottom: 200px;
+}
+
+
+.Laura{
+  width: 25%;
+}
+
+.goalimg {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.whyimg{
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+.btn {
+  background: #11cdd4;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  padding: 15px 30px;
+  height: 55px;
+  border: none;
+  border-radius: 10px;
+  font-size: 20px;
+  font-family: 'Montserrat', sans-serif;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #69cfd4;
+  text-decoration: none;
+}
